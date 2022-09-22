@@ -10,7 +10,7 @@ function App() {
       {/* <UpdatedPosts />
       <UpdatedComments />
       <UpdatedPhotos /> */}
-      {/* <MouseTracker /> */}
+      <MouseTracker />
       <LifeCycles/>
       {/* <SampleComponent /> */}
     </div>
