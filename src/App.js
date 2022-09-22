@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import MouseTracker from "./Cat";
+import UpdatedComments from "./Comments";
+import LifeCycles, { SampleComponent } from "./LifeCycles";
+import UpdatedPhotos from "./Photos";
+import UpdatedPosts from "./Posts";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <UpdatedPosts />
+      <UpdatedComments />
+      <UpdatedPhotos /> */}
+      {/* <MouseTracker /> */}
+      <LifeCycles/>
+      {/* <SampleComponent /> */}
     </div>
   );
 }
